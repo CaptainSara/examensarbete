@@ -23,7 +23,7 @@ function SideBar() {
 
   return (
     <div className="sidebar">
-      <h2 className='sidebar-title'>General Links</h2>
+      <h3 className='sidebar-title'>General Links</h3>
       <div>
         {data.infoLinks.data.map((value) => (
           <div key={value.id} className="section">

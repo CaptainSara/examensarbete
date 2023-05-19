@@ -1,17 +1,19 @@
 .footer {
-  margin: auto;
+  //margin: auto;
   text-align: center;
   padding: 12px;
-  background-color: #88BDBC;
+  margin: 20px;
+  background-color: rgba(255,255,255, 0.75);
   position: fixed;
   bottom: 0rem;
   width: 100%;
   backdrop-filter: blur(3px);
+  border-radius: 20px;
 }
 
 .footer-quotes {
   flex: 1;
-  display: flex;
+  text-align: center;
  
 }
 /* 

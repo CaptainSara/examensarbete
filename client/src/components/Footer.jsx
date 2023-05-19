@@ -7,7 +7,7 @@ query get {
    data {
      id,
      attributes {
-       Text
+       text
        
      }
    }
@@ -23,9 +23,9 @@ export default function Footer() {
   return (
     <div className="footer">
       <div className="footer-quotes">
-      {data.announcements.data.map((value) => (
-          <div key={value.id} className="announce-card">
-            <p>{value.attributes.Text}</p>
+      {data.footers.data.map((value) => (
+          <div key={value.id} >
+            <p>{value.attributes.text}</p>
           </div>
           
         ))}

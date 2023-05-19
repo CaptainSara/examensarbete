@@ -1,3 +1,15 @@
+.calender-div {
+  padding: 12px;
+  background-color: rgba(255,255,255, 0.70);
+  width: 100%;
+  border-radius: 20px;
+  margin-left: -40px;
+  height: 950px;
+}
+
+.calendar-container {
+  margin-top: 200px;
+}
 
 .selected-date {
   margin: 0 auto;
@@ -5,7 +17,7 @@
 
 .times button {
   display: block;
-  background-color: #6f48eb;
+  background-color: rgb(79, 147, 157);
   color: white;
   margin-top: 5px;
 }

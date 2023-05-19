@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_links",
+  "info": {
+    "singularName": "info-link",
+    "pluralName": "info-links",
+    "displayName": "info-link"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "href": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
